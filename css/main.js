@@ -48,7 +48,7 @@ export default StyleSheet.create({
         "marginLeft": 0
     },
     "a": {
-        "color": "#fff",
+        "color": "#A3A3A3",
         "WebkitTransition": "all .3s ease-in 0s",
         "MozTransition": "all .3s ease-in 0s",
         "MsTransition": "all .3s ease-in 0s",
@@ -63,12 +63,12 @@ export default StyleSheet.create({
     "a:focus": {
         "textDecoration": "none",
         "outline": 0,
-        "color": "#6CB670"
+        "color": "#FBDB0C"
     },
     "a:hover": {
         "textDecoration": "none",
         "outline": 0,
-        "color": "#6CB670"
+        "color": "#FBDB0C"
     },
     "h1": {
         "fontWeight": "normal",
@@ -125,7 +125,7 @@ export default StyleSheet.create({
         "Zoom": 1
     },
     "spancolor": {
-        "color": "#0feb9e"
+        "color": "#FBDB0C"
     },
     "body > section": {
         "paddingTop": 70,
@@ -138,13 +138,13 @@ export default StyleSheet.create({
         "paddingRight": 0,
         "paddingBottom": 70,
         "paddingLeft": 0,
-        "backgroundColor": "#1ea78d",
-        "borderTop": "5px solid #062033",
+        "backgroundColor": "#494949",
+        "borderTop": "5px solid #7A7A7A",
         "color": "#fff"
     },
     "sec-title": {},
     "sec-title h2": {
-        "color": "#0eb493",
+        "color": "#6a737b",
         "fontSize": 28,
         "fontWeight": "800",
         "textTransform": "uppercase"
@@ -210,7 +210,7 @@ export default StyleSheet.create({
         "transition": "background-color 800ms linear"
     },
     "navbar-toggle i": {
-        "color": "#fff"
+        "color": "#4C4C4C"
     },
     "navbar-brand": {
         "paddingTop": 0,
@@ -223,18 +223,18 @@ export default StyleSheet.create({
     },
     "navbar-nav li acurrent": {
         "backgroundColor": "transparent",
-        "borderTop": "1px solid #32B0EE",
-        "color": "#fff"
+        "borderTop": "1px solid #A3A3A3",
+        "color": "#4C4C4C"
     },
     "navbar-nav li a:focus": {
         "backgroundColor": "transparent",
-        "borderTop": "1px solid #32B0EE",
-        "color": "#fff"
+        "borderTop": "1px solid #A3A3A3",
+        "color": "#4C4C4C"
     },
     "navbar-nav li a:hover": {
         "backgroundColor": "transparent",
-        "borderTop": "1px solid #32B0EE",
-        "color": "#fff"
+        "borderTop": "1px solid #A3A3A3",
+        "color": "#4C4C4C"
     },
     "slider": {
         "paddingTop": 0,
@@ -269,14 +269,14 @@ export default StyleSheet.create({
         "fontWeight": "300"
     },
     "carousel-caption p:before": {
-        "color": "#0feb9e",
+        "color": "#FBDB0C",
         "content": "___",
         "position": "relative",
         "top": -8,
         "right": 20
     },
     "carousel-caption p:after": {
-        "color": "#0feb9e",
+        "color": "#FBDB0C",
         "content": "___",
         "position": "relative",
         "top": -8,
@@ -347,9 +347,9 @@ export default StyleSheet.create({
         "border": 0
     },
     "service-icon": {
-        "border": "1px solid #0eb493",
+        "border": "1px solid #262626",
         "borderRadius": "50%",
-        "color": "#0eb493",
+        "color": "#262626",
         "float": "left",
         "paddingTop": 10,
         "paddingRight": 13,
@@ -386,7 +386,7 @@ export default StyleSheet.create({
         "textTransform": "capitalize"
     },
     "work-filter ul li a:hover": {
-        "backgroundColor": "#0eb493",
+        "backgroundColor": "#A3A3A3",
         "borderRadius": 6,
         "color": "#fff",
         "paddingTop": 5,
@@ -395,7 +395,7 @@ export default StyleSheet.create({
         "paddingLeft": 17
     },
     "work-filter ul li aactive": {
-        "backgroundColor": "#0eb493",
+        "backgroundColor": "#A3A3A3",
         "borderRadius": 6,
         "color": "#fff",
         "paddingTop": 5,
@@ -417,14 +417,14 @@ export default StyleSheet.create({
         "maxWidth": "100%"
     },
     "overlay": {
-        "backgroundColor": "rgba(14,180,147,.9)",
+        "backgroundColor": "rgb(251,219,12)",
         "textAlign": "center",
         "position": "absolute",
         "left": 0,
         "top": 0,
         "width": "100%",
         "height": "100%",
-        "color": "#fff",
+        "color": "#A3A3A3",
         "opacity": 0,
         "filter": "alpha(opacity=0)",
         "WebkitTransition": "all 450ms ease-out 0s",
@@ -514,13 +514,13 @@ export default StyleSheet.create({
         "transform": "rotateY(0deg) scale(1,1)"
     },
     "team-member:hover h4": {
-        "color": "#0eb493"
+        "color": "#A3A3A3"
     },
     "team-member social-links": {
         "marginTop": "24%"
     },
     "team-member social-links li a": {
-        "backgroundColor": "#0d7c67",
+        "backgroundColor": "#515151",
         "color": "#fff",
         "height": 42,
         "paddingTop": 10,
@@ -652,7 +652,7 @@ export default StyleSheet.create({
         "marginTop": 17
     },
     "footer-social li a": {
-        "color": "#cdd2d6",
+        "color": "#7A7A7A",
         "display": "block",
         "marginBottom": 10
     },
@@ -661,7 +661,7 @@ export default StyleSheet.create({
         "width": "100%"
     },
     "footer a:hover": {
-        "color": "#062033"
+        "color": "#FBDB0C"
     },
     "footer h6": {
         "fontSize": 14,
@@ -706,7 +706,7 @@ export default StyleSheet.create({
         "marginLeft": 10
     },
     "credit a": {
-        "color": "#062033"
+        "color": "#7A7A7A"
     },
     "credit a:hover": {
         "color": "#fff"
